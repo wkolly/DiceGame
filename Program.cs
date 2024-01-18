@@ -1,4 +1,11 @@
-﻿class DiceSimulator
+// Will Koelliker section 1
+// This program simulates rolling two dice and adds the result together. 
+// This result is then displayed in a * which represents 1% of the total numnber
+// of rolls. This program has two classses a dicesimulator that prints out all the * and then 
+// a RollDice simulator that generates a random number for each dice between 1 and 6.
+// this result then gets added to an array that gets accessed in the diceSimulator class.
+
+class DiceSimulator
 {
     static void Main()
     {
